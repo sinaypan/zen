@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zen</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <span id="site"></span>
+      <span id="count"></span>
+    </header>
+
+    <button id="wand" type="button">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.6 13.4l7-7M11 2v2M11 8v2M7 6h2M13 6h2M12.6 3.4l.9-.9M12.6 8.6l.9.9" /></svg>
+      Prendre la baguette
+    </button>
+
+    <label id="zen">
+      <span>Mode zen sur ce site</span>
+      <input type="checkbox" id="enabled" />
+    </label>
+
+    <ul id="rules" aria-label="Éléments masqués"></ul>
+    <p id="hint"></p>
+    <button id="reset" class="link" type="button">Tout rétablir</button>
+    <script src="popup.js"></script>
+  </body>
+</html>

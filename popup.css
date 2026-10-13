@@ -1,0 +1,241 @@
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --field: #f2f2f7;
+  --text: #1c1c1e;
+  --muted: #8e8e93;
+  --accent: #1fa35a;
+  --accent-text: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1c1e;
+    --field: #2c2c2e;
+    --text: #f2f2f7;
+    --accent: #30d158;
+    --accent-text: #1c1c1e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  width: 340px;
+  margin: 0;
+  padding: 12px;
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.4 system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+button {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 2px 4px 10px;
+}
+
+#site {
+  flex: 1;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#count {
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+#wand {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font-weight: 600;
+}
+
+#wand svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+#wand:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Le réglage : une ligne et son interrupteur. */
+#zen {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--field);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#zen span {
+  flex: 1;
+}
+
+#enabled {
+  position: relative;
+  flex: none;
+  width: 40px;
+  height: 24px;
+  margin: 0;
+  appearance: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--muted) 45%, var(--field));
+  cursor: pointer;
+  outline: 0;
+  transition: background 0.15s;
+}
+
+#enabled::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  content: '';
+  transition: transform 0.15s;
+}
+
+#enabled:checked {
+  background: var(--accent);
+}
+
+#enabled:checked::after {
+  transform: translateX(16px);
+}
+
+#enabled:focus-visible {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+/* Ce qui est masqué sur ce site, à rétablir un par un. */
+#rules {
+  max-height: 190px;
+  margin: 10px 0 0;
+  padding: 4px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) transparent;
+  border-radius: 12px;
+  background: var(--field);
+  list-style: none;
+}
+
+#rules li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+}
+
+#rules li.absent span {
+  color: var(--muted);
+}
+
+#rules .eye {
+  display: flex;
+  flex: none;
+  padding: 6px;
+  color: var(--muted);
+}
+
+#rules .eye[aria-pressed='true'] {
+  color: var(--accent);
+}
+
+#rules .eye svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#rules li span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#rules li small {
+  color: var(--muted);
+}
+
+#rules button {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+#rules button:hover {
+  background: color-mix(in srgb, var(--text) 9%, transparent);
+}
+
+#hint {
+  margin: 10px 4px 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.link {
+  display: block;
+  margin: 8px auto 0;
+  padding: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #enabled,
+  #enabled::after {
+    transition: none;
+  }
+}
