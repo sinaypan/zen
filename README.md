@@ -12,7 +12,7 @@ A Chrome extension that hides what gets in the way on a website (an ad, a cookie
 - **It aims at the block you see.** Under the mouse there is often an invisible piece of a larger block: the text field inside a search bar, the text of a banner, an ad without its "Advertisement" label. Zen starts from the visible block. `↑` takes a wider block, `↓` a narrower one.
 - **The similar ones.** After hiding a card or a row, the bar offers to hide the others like it. Hovering the button outlines them first.
 - **It remembers, per site.** What you hid is hidden again at every visit, before the page is shown, including elements the site adds later.
-- **The list.** The popup lists what is hidden on the current site. The eye next to each line shows that element on the page again (the page scrolls to it and outlines it), and hides it when clicked again. "Rétablir" forgets the line. A switch pauses Zen on the site without losing the list.
+- **The list.** The popup lists what is hidden on the current site. The eye next to each line shows that element on the page again (the page scrolls to it and outlines it), and hides it when clicked again. "Restore" forgets the line. A switch pauses Zen on the site without losing the list.
 - **Undo.** `Ctrl+Z` brings back the last hidden block, `Esc` puts the wand down.
 - **Scrolling comes back.** Removing a cookie wall often leaves the page unable to scroll; Zen unlocks it.
 
