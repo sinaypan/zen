@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "웹사이트에서 거슬리는 것을 마법 지팡이로 숨기고, 다시 방문해도 계속 숨겨 둡니다."
+  },
+  "cmdWand": {
+    "message": "현재 페이지에서 지팡이 들기"
+  },
+  "takeWand": {
+    "message": "지팡이 들기"
+  },
+  "zenMode": {
+    "message": "이 사이트에서 젠 모드"
+  },
+  "hiddenItems": {
+    "message": "숨긴 요소"
+  },
+  "resetAll": {
+    "message": "모두 복원"
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$개 숨김",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$TOTAL$개 중 $COUNT$개 숨김",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "다시 숨기기"
+  },
+  "showOnPage": {
+    "message": "페이지에서 보기"
+  },
+  "notOnPage": {
+    "message": "이 페이지에 없음"
+  },
+  "fragile": {
+    "message": "불안정"
+  },
+  "restore": {
+    "message": "복원"
+  },
+  "hintEmpty": {
+    "message": "이 사이트에 숨긴 것이 없습니다. 지팡이를 들고 거슬리는 것을 클릭하세요."
+  },
+  "hintProtected": {
+    "message": "Chrome은 이 페이지의 변경을 허용하지 않습니다."
+  },
+  "undo": {
+    "message": "실행 취소"
+  },
+  "done": {
+    "message": "완료"
+  },
+  "moveBar": {
+    "message": "막대 이동"
+  },
+  "clickWhat": {
+    "message": "거슬리는 것을 클릭하세요"
+  },
+  "aimWider": {
+    "message": "↑ ↓ 로 더 넓게 선택"
+  },
+  "alsoSimilar_other": {
+    "message": "비슷한 $COUNT$개도",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "프레임"
+  },
+  "kindImage": {
+    "message": "이미지"
+  },
+  "kindVideo": {
+    "message": "동영상"
+  },
+  "kindAside": {
+    "message": "사이드 열"
+  },
+  "kindHeader": {
+    "message": "헤더"
+  },
+  "kindFooter": {
+    "message": "푸터"
+  },
+  "kindNav": {
+    "message": "메뉴"
+  },
+  "kindDialog": {
+    "message": "창"
+  },
+  "kindForm": {
+    "message": "양식"
+  },
+  "kindButton": {
+    "message": "버튼"
+  },
+  "kindLink": {
+    "message": "링크"
+  },
+  "kindList": {
+    "message": "목록"
+  },
+  "kindRow": {
+    "message": "행"
+  },
+  "kindArticle": {
+    "message": "글"
+  },
+  "kindText": {
+    "message": "텍스트"
+  },
+  "kindBlock": {
+    "message": "블록"
+  }
+}

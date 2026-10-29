@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Bir web sitesinde rahatsız edeni gizleyen ve her ziyarette gizli tutan bir sihirli değnek."
+  },
+  "cmdWand": {
+    "message": "Geçerli sayfada değneği al"
+  },
+  "takeWand": {
+    "message": "Değneği al"
+  },
+  "zenMode": {
+    "message": "Bu sitede zen modu"
+  },
+  "hiddenItems": {
+    "message": "Gizlenen öğeler"
+  },
+  "resetAll": {
+    "message": "Tümünü geri getir"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ gizli",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ gizli",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$TOTAL$ öğeden $COUNT$ gizli",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$TOTAL$ öğeden $COUNT$ gizli",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Yeniden gizle"
+  },
+  "showOnPage": {
+    "message": "Sayfada göster"
+  },
+  "notOnPage": {
+    "message": "bu sayfada yok"
+  },
+  "fragile": {
+    "message": "kırılgan"
+  },
+  "restore": {
+    "message": "Geri getir"
+  },
+  "hintEmpty": {
+    "message": "Bu sitede gizli bir şey yok. Değneği alın ve rahatsız eden şeye tıklayın."
+  },
+  "hintProtected": {
+    "message": "Chrome bu sayfada değişikliğe izin vermiyor."
+  },
+  "undo": {
+    "message": "Geri al"
+  },
+  "done": {
+    "message": "Bitti"
+  },
+  "moveBar": {
+    "message": "Çubuğu taşı"
+  },
+  "clickWhat": {
+    "message": "Rahatsız eden şeye tıklayın"
+  },
+  "aimWider": {
+    "message": "Daha geniş seçmek için ↑ ↓"
+  },
+  "alsoSimilar_one": {
+    "message": "Benzer $COUNT$ öğeyi de",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Benzer $COUNT$ öğeyi de",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Çerçeve"
+  },
+  "kindImage": {
+    "message": "Görsel"
+  },
+  "kindVideo": {
+    "message": "Video"
+  },
+  "kindAside": {
+    "message": "Sütun"
+  },
+  "kindHeader": {
+    "message": "Üst bilgi"
+  },
+  "kindFooter": {
+    "message": "Alt bilgi"
+  },
+  "kindNav": {
+    "message": "Menü"
+  },
+  "kindDialog": {
+    "message": "Pencere"
+  },
+  "kindForm": {
+    "message": "Form"
+  },
+  "kindButton": {
+    "message": "Düğme"
+  },
+  "kindLink": {
+    "message": "Bağlantı"
+  },
+  "kindList": {
+    "message": "Liste"
+  },
+  "kindRow": {
+    "message": "Satır"
+  },
+  "kindArticle": {
+    "message": "Makale"
+  },
+  "kindText": {
+    "message": "Metin"
+  },
+  "kindBlock": {
+    "message": "Blok"
+  }
+}

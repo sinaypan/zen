@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Ein Zauberstab, der Störendes auf einer Website ausblendet – bei jedem Besuch."
+  },
+  "cmdWand": {
+    "message": "Zauberstab auf der aktuellen Seite nehmen"
+  },
+  "takeWand": {
+    "message": "Zauberstab nehmen"
+  },
+  "zenMode": {
+    "message": "Zen-Modus auf dieser Website"
+  },
+  "hiddenItems": {
+    "message": "Ausgeblendete Elemente"
+  },
+  "resetAll": {
+    "message": "Alles wiederherstellen"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ ausgeblendet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ ausgeblendet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ von $TOTAL$ ausgeblendet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ von $TOTAL$ ausgeblendet",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Wieder ausblenden"
+  },
+  "showOnPage": {
+    "message": "Auf der Seite zeigen"
+  },
+  "notOnPage": {
+    "message": "nicht auf dieser Seite"
+  },
+  "fragile": {
+    "message": "unsicher"
+  },
+  "restore": {
+    "message": "Wiederherstellen"
+  },
+  "hintEmpty": {
+    "message": "Auf dieser Website ist nichts ausgeblendet. Nimm den Zauberstab und klicke auf das, was stört."
+  },
+  "hintProtected": {
+    "message": "Chrome erlaubt auf dieser Seite keine Änderungen."
+  },
+  "undo": {
+    "message": "Rückgängig"
+  },
+  "done": {
+    "message": "Fertig"
+  },
+  "moveBar": {
+    "message": "Leiste verschieben"
+  },
+  "clickWhat": {
+    "message": "Klicke auf das, was stört"
+  },
+  "aimWider": {
+    "message": "↑ ↓ für einen größeren Bereich"
+  },
+  "alsoSimilar_one": {
+    "message": "Auch das $COUNT$ ähnliche",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Auch die $COUNT$ ähnlichen",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Rahmen"
+  },
+  "kindImage": {
+    "message": "Bild"
+  },
+  "kindVideo": {
+    "message": "Video"
+  },
+  "kindAside": {
+    "message": "Spalte"
+  },
+  "kindHeader": {
+    "message": "Kopfzeile"
+  },
+  "kindFooter": {
+    "message": "Fußzeile"
+  },
+  "kindNav": {
+    "message": "Menü"
+  },
+  "kindDialog": {
+    "message": "Fenster"
+  },
+  "kindForm": {
+    "message": "Formular"
+  },
+  "kindButton": {
+    "message": "Schaltfläche"
+  },
+  "kindLink": {
+    "message": "Link"
+  },
+  "kindList": {
+    "message": "Liste"
+  },
+  "kindRow": {
+    "message": "Zeile"
+  },
+  "kindArticle": {
+    "message": "Artikel"
+  },
+  "kindText": {
+    "message": "Text"
+  },
+  "kindBlock": {
+    "message": "Block"
+  }
+}

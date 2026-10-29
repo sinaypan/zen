@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Una varita para ocultar lo que molesta en un sitio web y mantenerlo oculto en cada visita."
+  },
+  "cmdWand": {
+    "message": "Tomar la varita en la página actual"
+  },
+  "takeWand": {
+    "message": "Tomar la varita"
+  },
+  "zenMode": {
+    "message": "Modo zen en este sitio"
+  },
+  "hiddenItems": {
+    "message": "Elementos ocultos"
+  },
+  "resetAll": {
+    "message": "Restaurar todo"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ oculto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ ocultos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ oculto de $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ ocultos de $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Ocultar de nuevo"
+  },
+  "showOnPage": {
+    "message": "Mostrar en la página"
+  },
+  "notOnPage": {
+    "message": "no está en esta página"
+  },
+  "fragile": {
+    "message": "frágil"
+  },
+  "restore": {
+    "message": "Restaurar"
+  },
+  "hintEmpty": {
+    "message": "No hay nada oculto en este sitio. Toma la varita y haz clic en lo que te molesta."
+  },
+  "hintProtected": {
+    "message": "Chrome no permite cambios en esta página."
+  },
+  "undo": {
+    "message": "Deshacer"
+  },
+  "done": {
+    "message": "Listo"
+  },
+  "moveBar": {
+    "message": "Mover la barra"
+  },
+  "clickWhat": {
+    "message": "Haz clic en lo que te molesta"
+  },
+  "aimWider": {
+    "message": "↑ ↓ para apuntar más amplio"
+  },
+  "alsoSimilar_one": {
+    "message": "También el $COUNT$ similar",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "También los $COUNT$ similares",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Marco"
+  },
+  "kindImage": {
+    "message": "Imagen"
+  },
+  "kindVideo": {
+    "message": "Vídeo"
+  },
+  "kindAside": {
+    "message": "Columna"
+  },
+  "kindHeader": {
+    "message": "Cabecera"
+  },
+  "kindFooter": {
+    "message": "Pie de página"
+  },
+  "kindNav": {
+    "message": "Menú"
+  },
+  "kindDialog": {
+    "message": "Ventana"
+  },
+  "kindForm": {
+    "message": "Formulario"
+  },
+  "kindButton": {
+    "message": "Botón"
+  },
+  "kindLink": {
+    "message": "Enlace"
+  },
+  "kindList": {
+    "message": "Lista"
+  },
+  "kindRow": {
+    "message": "Fila"
+  },
+  "kindArticle": {
+    "message": "Artículo"
+  },
+  "kindText": {
+    "message": "Texto"
+  },
+  "kindBlock": {
+    "message": "Bloque"
+  }
+}

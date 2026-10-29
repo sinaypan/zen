@@ -1,0 +1,215 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Волшебная палочка, чтобы скрыть то, что мешает на сайте, и не видеть этого при каждом визите."
+  },
+  "cmdWand": {
+    "message": "Взять палочку на текущей странице"
+  },
+  "takeWand": {
+    "message": "Взять палочку"
+  },
+  "zenMode": {
+    "message": "Режим дзен на этом сайте"
+  },
+  "hiddenItems": {
+    "message": "Скрытые элементы"
+  },
+  "resetAll": {
+    "message": "Вернуть всё"
+  },
+  "hiddenCount_one": {
+    "message": "Скрыт $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_few": {
+    "message": "Скрыто $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_many": {
+    "message": "Скрыто $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "Скрыто $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "Скрыт $COUNT$ из $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_few": {
+    "message": "Скрыто $COUNT$ из $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_many": {
+    "message": "Скрыто $COUNT$ из $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "Скрыто $COUNT$ из $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Снова скрыть"
+  },
+  "showOnPage": {
+    "message": "Показать на странице"
+  },
+  "notOnPage": {
+    "message": "нет на этой странице"
+  },
+  "fragile": {
+    "message": "ненадёжно"
+  },
+  "restore": {
+    "message": "Вернуть"
+  },
+  "hintEmpty": {
+    "message": "На этом сайте ничего не скрыто. Возьмите палочку и нажмите на то, что мешает."
+  },
+  "hintProtected": {
+    "message": "Chrome не разрешает изменять эту страницу."
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "moveBar": {
+    "message": "Переместить панель"
+  },
+  "clickWhat": {
+    "message": "Нажмите на то, что мешает"
+  },
+  "aimWider": {
+    "message": "↑ ↓ — захватить больше"
+  },
+  "alsoSimilar_one": {
+    "message": "И ещё $COUNT$ похожий",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_few": {
+    "message": "И ещё $COUNT$ похожих",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_many": {
+    "message": "И ещё $COUNT$ похожих",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "И ещё $COUNT$ похожих",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Фрейм"
+  },
+  "kindImage": {
+    "message": "Изображение"
+  },
+  "kindVideo": {
+    "message": "Видео"
+  },
+  "kindAside": {
+    "message": "Колонка"
+  },
+  "kindHeader": {
+    "message": "Шапка"
+  },
+  "kindFooter": {
+    "message": "Подвал"
+  },
+  "kindNav": {
+    "message": "Меню"
+  },
+  "kindDialog": {
+    "message": "Окно"
+  },
+  "kindForm": {
+    "message": "Форма"
+  },
+  "kindButton": {
+    "message": "Кнопка"
+  },
+  "kindLink": {
+    "message": "Ссылка"
+  },
+  "kindList": {
+    "message": "Список"
+  },
+  "kindRow": {
+    "message": "Строка"
+  },
+  "kindArticle": {
+    "message": "Статья"
+  },
+  "kindText": {
+    "message": "Текст"
+  },
+  "kindBlock": {
+    "message": "Блок"
+  }
+}

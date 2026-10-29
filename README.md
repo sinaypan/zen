@@ -22,7 +22,7 @@ A Chrome extension that hides what gets in the way on a website (an ad, a cookie
 
 <img src="screenshots/popup.png" width="340" alt="The popup with the list of hidden elements, one of them shown again">
 
-The interface follows the language of Chrome: English by default, French when Chrome is set to French. The site in the screenshots is made up for the demonstration.
+The interface follows the language of Chrome: English by default, and also French, Spanish, Brazilian Portuguese, German, Italian, Russian, Turkish, Arabic, Japanese, Korean and Simplified Chinese. The site in the screenshots is made up for the demonstration.
 
 ## Install
 

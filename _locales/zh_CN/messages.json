@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "用魔杖隐藏网站上碍眼的内容，每次访问都保持隐藏。"
+  },
+  "cmdWand": {
+    "message": "在当前页面拿起魔杖"
+  },
+  "takeWand": {
+    "message": "拿起魔杖"
+  },
+  "zenMode": {
+    "message": "在此网站使用禅模式"
+  },
+  "hiddenItems": {
+    "message": "已隐藏的元素"
+  },
+  "resetAll": {
+    "message": "全部恢复"
+  },
+  "hiddenCount_other": {
+    "message": "已隐藏 $COUNT$ 个",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "已隐藏 $COUNT$ 个，共 $TOTAL$ 个",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "再次隐藏"
+  },
+  "showOnPage": {
+    "message": "在页面上显示"
+  },
+  "notOnPage": {
+    "message": "不在此页面"
+  },
+  "fragile": {
+    "message": "不稳定"
+  },
+  "restore": {
+    "message": "恢复"
+  },
+  "hintEmpty": {
+    "message": "此网站没有隐藏任何内容。拿起魔杖，点击碍眼的内容即可。"
+  },
+  "hintProtected": {
+    "message": "Chrome 不允许修改此页面。"
+  },
+  "undo": {
+    "message": "撤销"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "moveBar": {
+    "message": "移动工具条"
+  },
+  "clickWhat": {
+    "message": "点击碍眼的内容"
+  },
+  "aimWider": {
+    "message": "按 ↑ ↓ 扩大范围"
+  },
+  "alsoSimilar_other": {
+    "message": "连同 $COUNT$ 个相似元素",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "框架"
+  },
+  "kindImage": {
+    "message": "图片"
+  },
+  "kindVideo": {
+    "message": "视频"
+  },
+  "kindAside": {
+    "message": "侧栏"
+  },
+  "kindHeader": {
+    "message": "页眉"
+  },
+  "kindFooter": {
+    "message": "页脚"
+  },
+  "kindNav": {
+    "message": "菜单"
+  },
+  "kindDialog": {
+    "message": "窗口"
+  },
+  "kindForm": {
+    "message": "表单"
+  },
+  "kindButton": {
+    "message": "按钮"
+  },
+  "kindLink": {
+    "message": "链接"
+  },
+  "kindList": {
+    "message": "列表"
+  },
+  "kindRow": {
+    "message": "行"
+  },
+  "kindArticle": {
+    "message": "文章"
+  },
+  "kindText": {
+    "message": "文本"
+  },
+  "kindBlock": {
+    "message": "区块"
+  }
+}

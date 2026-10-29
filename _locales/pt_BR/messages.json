@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Uma varinha para esconder o que atrapalha em um site e manter escondido a cada visita."
+  },
+  "cmdWand": {
+    "message": "Pegar a varinha na página atual"
+  },
+  "takeWand": {
+    "message": "Pegar a varinha"
+  },
+  "zenMode": {
+    "message": "Modo zen neste site"
+  },
+  "hiddenItems": {
+    "message": "Elementos escondidos"
+  },
+  "resetAll": {
+    "message": "Restaurar tudo"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ escondido",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ escondidos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ escondido de $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ escondidos de $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Esconder de novo"
+  },
+  "showOnPage": {
+    "message": "Mostrar na página"
+  },
+  "notOnPage": {
+    "message": "não está nesta página"
+  },
+  "fragile": {
+    "message": "frágil"
+  },
+  "restore": {
+    "message": "Restaurar"
+  },
+  "hintEmpty": {
+    "message": "Nada está escondido neste site. Pegue a varinha e clique no que incomoda."
+  },
+  "hintProtected": {
+    "message": "O Chrome não permite alterações nesta página."
+  },
+  "undo": {
+    "message": "Desfazer"
+  },
+  "done": {
+    "message": "Concluído"
+  },
+  "moveBar": {
+    "message": "Mover a barra"
+  },
+  "clickWhat": {
+    "message": "Clique no que incomoda"
+  },
+  "aimWider": {
+    "message": "↑ ↓ para mirar mais amplo"
+  },
+  "alsoSimilar_one": {
+    "message": "Também o $COUNT$ parecido",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Também os $COUNT$ parecidos",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Quadro"
+  },
+  "kindImage": {
+    "message": "Imagem"
+  },
+  "kindVideo": {
+    "message": "Vídeo"
+  },
+  "kindAside": {
+    "message": "Coluna"
+  },
+  "kindHeader": {
+    "message": "Cabeçalho"
+  },
+  "kindFooter": {
+    "message": "Rodapé"
+  },
+  "kindNav": {
+    "message": "Menu"
+  },
+  "kindDialog": {
+    "message": "Janela"
+  },
+  "kindForm": {
+    "message": "Formulário"
+  },
+  "kindButton": {
+    "message": "Botão"
+  },
+  "kindLink": {
+    "message": "Link"
+  },
+  "kindList": {
+    "message": "Lista"
+  },
+  "kindRow": {
+    "message": "Linha"
+  },
+  "kindArticle": {
+    "message": "Artigo"
+  },
+  "kindText": {
+    "message": "Texto"
+  },
+  "kindBlock": {
+    "message": "Bloco"
+  }
+}

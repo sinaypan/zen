@@ -1,0 +1,269 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "عصا سحرية لإخفاء ما يزعجك في موقع ويب، ويبقى مخفيًا في كل زيارة."
+  },
+  "cmdWand": {
+    "message": "أخذ العصا في الصفحة الحالية"
+  },
+  "takeWand": {
+    "message": "أخذ العصا"
+  },
+  "zenMode": {
+    "message": "وضع زن في هذا الموقع"
+  },
+  "hiddenItems": {
+    "message": "العناصر المخفية"
+  },
+  "resetAll": {
+    "message": "استعادة الكل"
+  },
+  "hiddenCount_zero": {
+    "message": "لا شيء مخفي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_one": {
+    "message": "عنصر واحد مخفي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_two": {
+    "message": "عنصران مخفيان",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_few": {
+    "message": "$COUNT$ عناصر مخفية",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_many": {
+    "message": "$COUNT$ عنصرًا مخفيًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ عنصر مخفي",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_zero": {
+    "message": "لا شيء مخفي من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "عنصر واحد مخفي من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_two": {
+    "message": "عنصران مخفيان من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_few": {
+    "message": "$COUNT$ مخفية من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_many": {
+    "message": "$COUNT$ مخفيًا من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ مخفي من $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "إخفاء مجددًا"
+  },
+  "showOnPage": {
+    "message": "إظهار في الصفحة"
+  },
+  "notOnPage": {
+    "message": "ليس في هذه الصفحة"
+  },
+  "fragile": {
+    "message": "هشّ"
+  },
+  "restore": {
+    "message": "استعادة"
+  },
+  "hintEmpty": {
+    "message": "لا شيء مخفي في هذا الموقع. خذ العصا ثم انقر على ما يزعجك."
+  },
+  "hintProtected": {
+    "message": "لا يسمح Chrome بتعديل هذه الصفحة."
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "done": {
+    "message": "تم"
+  },
+  "moveBar": {
+    "message": "نقل الشريط"
+  },
+  "clickWhat": {
+    "message": "انقر على ما يزعجك"
+  },
+  "aimWider": {
+    "message": "↑ ↓ لتوسيع التحديد"
+  },
+  "alsoSimilar_zero": {
+    "message": "وأيضًا العناصر المشابهة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_one": {
+    "message": "وأيضًا العنصر المشابه",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_two": {
+    "message": "وأيضًا العنصرين المشابهين",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_few": {
+    "message": "وأيضًا $COUNT$ عناصر مشابهة",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_many": {
+    "message": "وأيضًا $COUNT$ عنصرًا مشابهًا",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "وأيضًا $COUNT$ عنصر مشابه",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "إطار"
+  },
+  "kindImage": {
+    "message": "صورة"
+  },
+  "kindVideo": {
+    "message": "فيديو"
+  },
+  "kindAside": {
+    "message": "عمود"
+  },
+  "kindHeader": {
+    "message": "ترويسة"
+  },
+  "kindFooter": {
+    "message": "تذييل"
+  },
+  "kindNav": {
+    "message": "قائمة"
+  },
+  "kindDialog": {
+    "message": "نافذة"
+  },
+  "kindForm": {
+    "message": "نموذج"
+  },
+  "kindButton": {
+    "message": "زر"
+  },
+  "kindLink": {
+    "message": "رابط"
+  },
+  "kindList": {
+    "message": "قائمة"
+  },
+  "kindRow": {
+    "message": "صف"
+  },
+  "kindArticle": {
+    "message": "مقال"
+  },
+  "kindText": {
+    "message": "نص"
+  },
+  "kindBlock": {
+    "message": "كتلة"
+  }
+}

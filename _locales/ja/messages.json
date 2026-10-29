@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "ウェブサイトの邪魔なものを魔法の杖で隠し、次に訪れたときも隠したままにします。"
+  },
+  "cmdWand": {
+    "message": "現在のページで杖を使う"
+  },
+  "takeWand": {
+    "message": "杖を使う"
+  },
+  "zenMode": {
+    "message": "このサイトで禅モード"
+  },
+  "hiddenItems": {
+    "message": "非表示の要素"
+  },
+  "resetAll": {
+    "message": "すべて元に戻す"
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ 件を非表示",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$TOTAL$ 件中 $COUNT$ 件を非表示",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "再び隠す"
+  },
+  "showOnPage": {
+    "message": "ページ上で表示"
+  },
+  "notOnPage": {
+    "message": "このページにはありません"
+  },
+  "fragile": {
+    "message": "不安定"
+  },
+  "restore": {
+    "message": "元に戻す"
+  },
+  "hintEmpty": {
+    "message": "このサイトで隠しているものはありません。杖を使って、邪魔なものをクリックしてください。"
+  },
+  "hintProtected": {
+    "message": "Chrome はこのページの変更を許可していません。"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "done": {
+    "message": "完了"
+  },
+  "moveBar": {
+    "message": "バーを移動"
+  },
+  "clickWhat": {
+    "message": "邪魔なものをクリック"
+  },
+  "aimWider": {
+    "message": "↑ ↓ で範囲を広げる"
+  },
+  "alsoSimilar_other": {
+    "message": "似ている $COUNT$ 件も",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "フレーム"
+  },
+  "kindImage": {
+    "message": "画像"
+  },
+  "kindVideo": {
+    "message": "動画"
+  },
+  "kindAside": {
+    "message": "サイドバー"
+  },
+  "kindHeader": {
+    "message": "ヘッダー"
+  },
+  "kindFooter": {
+    "message": "フッター"
+  },
+  "kindNav": {
+    "message": "メニュー"
+  },
+  "kindDialog": {
+    "message": "ウィンドウ"
+  },
+  "kindForm": {
+    "message": "フォーム"
+  },
+  "kindButton": {
+    "message": "ボタン"
+  },
+  "kindLink": {
+    "message": "リンク"
+  },
+  "kindList": {
+    "message": "リスト"
+  },
+  "kindRow": {
+    "message": "行"
+  },
+  "kindArticle": {
+    "message": "記事"
+  },
+  "kindText": {
+    "message": "テキスト"
+  },
+  "kindBlock": {
+    "message": "ブロック"
+  }
+}

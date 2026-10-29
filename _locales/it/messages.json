@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Una bacchetta per nascondere ciò che dà fastidio su un sito e tenerlo nascosto a ogni visita."
+  },
+  "cmdWand": {
+    "message": "Prendi la bacchetta sulla pagina attuale"
+  },
+  "takeWand": {
+    "message": "Prendi la bacchetta"
+  },
+  "zenMode": {
+    "message": "Modalità zen su questo sito"
+  },
+  "hiddenItems": {
+    "message": "Elementi nascosti"
+  },
+  "resetAll": {
+    "message": "Ripristina tutto"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ nascosto",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ nascosti",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ nascosto su $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ nascosti su $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Nascondi di nuovo"
+  },
+  "showOnPage": {
+    "message": "Mostra nella pagina"
+  },
+  "notOnPage": {
+    "message": "non in questa pagina"
+  },
+  "fragile": {
+    "message": "fragile"
+  },
+  "restore": {
+    "message": "Ripristina"
+  },
+  "hintEmpty": {
+    "message": "Niente è nascosto su questo sito. Prendi la bacchetta e clicca su ciò che ti dà fastidio."
+  },
+  "hintProtected": {
+    "message": "Chrome non consente modifiche a questa pagina."
+  },
+  "undo": {
+    "message": "Annulla"
+  },
+  "done": {
+    "message": "Fatto"
+  },
+  "moveBar": {
+    "message": "Sposta la barra"
+  },
+  "clickWhat": {
+    "message": "Clicca su ciò che ti dà fastidio"
+  },
+  "aimWider": {
+    "message": "↑ ↓ per prendere più spazio"
+  },
+  "alsoSimilar_one": {
+    "message": "Anche l’$COUNT$ simile",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Anche i $COUNT$ simili",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Riquadro"
+  },
+  "kindImage": {
+    "message": "Immagine"
+  },
+  "kindVideo": {
+    "message": "Video"
+  },
+  "kindAside": {
+    "message": "Colonna"
+  },
+  "kindHeader": {
+    "message": "Intestazione"
+  },
+  "kindFooter": {
+    "message": "Piè di pagina"
+  },
+  "kindNav": {
+    "message": "Menu"
+  },
+  "kindDialog": {
+    "message": "Finestra"
+  },
+  "kindForm": {
+    "message": "Modulo"
+  },
+  "kindButton": {
+    "message": "Pulsante"
+  },
+  "kindLink": {
+    "message": "Link"
+  },
+  "kindList": {
+    "message": "Elenco"
+  },
+  "kindRow": {
+    "message": "Riga"
+  },
+  "kindArticle": {
+    "message": "Articolo"
+  },
+  "kindText": {
+    "message": "Testo"
+  },
+  "kindBlock": {
+    "message": "Blocco"
+  }
+}
