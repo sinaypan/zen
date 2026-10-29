@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Zen</title>
@@ -13,17 +13,18 @@
 
     <button id="wand" type="button">
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.6 13.4l7-7M11 2v2M11 8v2M7 6h2M13 6h2M12.6 3.4l.9-.9M12.6 8.6l.9.9" /></svg>
-      Prendre la baguette
+      <span data-i18n="takeWand"></span>
     </button>
 
     <label id="zen">
-      <span>Mode zen sur ce site</span>
+      <span data-i18n="zenMode"></span>
       <input type="checkbox" id="enabled" />
     </label>
 
-    <ul id="rules" aria-label="Éléments masqués"></ul>
+    <ul id="rules" data-i18n-aria-label="hiddenItems"></ul>
     <p id="hint"></p>
-    <button id="reset" class="link" type="button">Tout rétablir</button>
+    <button id="reset" class="link" type="button" data-i18n="resetAll"></button>
+    <script src="i18n.js"></script>
     <script src="popup.js"></script>
   </body>
 </html>

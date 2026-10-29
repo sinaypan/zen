@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "A wand to hide what gets in the way on a website, and keep it hidden on every visit."
+  },
+  "cmdWand": {
+    "message": "Take the wand on the current page"
+  },
+  "takeWand": {
+    "message": "Take the wand"
+  },
+  "zenMode": {
+    "message": "Zen mode on this site"
+  },
+  "hiddenItems": {
+    "message": "Hidden elements"
+  },
+  "resetAll": {
+    "message": "Restore everything"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ hidden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ hidden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ hidden of $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ hidden of $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Hide again"
+  },
+  "showOnPage": {
+    "message": "Show on the page"
+  },
+  "notOnPage": {
+    "message": "not on this page"
+  },
+  "fragile": {
+    "message": "fragile"
+  },
+  "restore": {
+    "message": "Restore"
+  },
+  "hintEmpty": {
+    "message": "Nothing is hidden on this site. Take the wand, then click what bothers you."
+  },
+  "hintProtected": {
+    "message": "Chrome does not allow changes to this page."
+  },
+  "undo": {
+    "message": "Undo"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "moveBar": {
+    "message": "Move the bar"
+  },
+  "clickWhat": {
+    "message": "Click what bothers you"
+  },
+  "aimWider": {
+    "message": "↑ ↓ to aim wider"
+  },
+  "alsoSimilar_one": {
+    "message": "Also the $COUNT$ similar one",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Also the $COUNT$ similar ones",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Frame"
+  },
+  "kindImage": {
+    "message": "Image"
+  },
+  "kindVideo": {
+    "message": "Video"
+  },
+  "kindAside": {
+    "message": "Column"
+  },
+  "kindHeader": {
+    "message": "Header"
+  },
+  "kindFooter": {
+    "message": "Footer"
+  },
+  "kindNav": {
+    "message": "Menu"
+  },
+  "kindDialog": {
+    "message": "Window"
+  },
+  "kindForm": {
+    "message": "Form"
+  },
+  "kindButton": {
+    "message": "Button"
+  },
+  "kindLink": {
+    "message": "Link"
+  },
+  "kindList": {
+    "message": "List"
+  },
+  "kindRow": {
+    "message": "Row"
+  },
+  "kindArticle": {
+    "message": "Article"
+  },
+  "kindText": {
+    "message": "Text"
+  },
+  "kindBlock": {
+    "message": "Block"
+  }
+}

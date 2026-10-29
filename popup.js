@@ -28,7 +28,7 @@ const eyeIcon = (crossed) => {
 const render = () => {
   const count = site.rules.length;
   const hidden = site.rules.filter((rule) => !rule.off).length;
-  byId('count').textContent = count ? `${hidden} masqué${hidden > 1 ? 's' : ''}${hidden < count ? ` sur ${count}` : ''}` : '';
+  byId('count').textContent = !count ? '' : hidden < count ? tp('hiddenOfTotal', hidden, count) : tp('hiddenCount', hidden);
   wand.disabled = !key;
   byId('zen').hidden = !key || !count;
   enabled.checked = site.enabled !== false;
@@ -39,7 +39,7 @@ const render = () => {
       const item = document.createElement('li');
       // L'œil : laisser voir cet élément sur la page, ou le masquer de nouveau.
       const eye = Object.assign(document.createElement('button'), { type: 'button', className: 'eye' });
-      eye.title = rule.off ? 'Masquer de nouveau' : 'Montrer sur la page';
+      eye.title = t(rule.off ? 'hideAgain' : 'showOnPage');
       eye.setAttribute('aria-label', eye.title);
       eye.setAttribute('aria-pressed', String(Boolean(rule.off)));
       eye.append(eyeIcon(!rule.off));
@@ -55,9 +55,9 @@ const render = () => {
       const absent = present && !present[rule.id];
       item.classList.toggle('absent', Boolean(absent));
       // Fragile : adresse fondée sur la place dans la page, elle peut ne plus tomber juste si le site change.
-      const note = absent ? 'pas sur cette page' : rule.quality === 'position' ? 'fragile' : '';
+      const note = absent ? t('notOnPage') : rule.quality === 'position' ? t('fragile') : '';
       if (note) label.append(Object.assign(document.createElement('small'), { textContent: `  ${note}` }));
-      const restore = Object.assign(document.createElement('button'), { type: 'button', textContent: 'Rétablir' });
+      const restore = Object.assign(document.createElement('button'), { type: 'button', textContent: t('restore') });
       restore.addEventListener('click', () => {
         site.rules = site.rules.filter((entry) => entry.id !== rule.id);
         save();
@@ -68,9 +68,7 @@ const render = () => {
     }),
   );
   hint.hidden = Boolean(count);
-  hint.textContent = key
-    ? 'Rien n’est masqué sur ce site. Prends la baguette, puis clique sur ce qui te gêne.'
-    : 'Chrome ne permet pas de modifier cette page.';
+  hint.textContent = t(key ? 'hintEmpty' : 'hintProtected');
 };
 
 wand.addEventListener('click', async () => {

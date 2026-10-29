@@ -9,7 +9,15 @@
   }
 
   const KEY = `site:${location.hostname.replace(/^www\./, '')}`;
-  const KINDS = { iframe: 'Cadre', img: 'Image', picture: 'Image', video: 'Vidéo', aside: 'Colonne', header: 'En-tête', footer: 'Pied de page', nav: 'Menu', dialog: 'Fenêtre', form: 'Formulaire', button: 'Bouton', a: 'Lien', ul: 'Liste', ol: 'Liste', li: 'Ligne', article: 'Article', p: 'Texte' };
+
+  // Textes dans la langue de Chrome (_locales), pluriels selon la règle de la langue.
+  // Script injecté dans la page : il n'utilise pas i18n.js, qui touche au document.
+  const t = (key, ...subs) => chrome.i18n.getMessage(key, subs.map(String)) || key;
+  const plurals = new Intl.PluralRules(chrome.i18n.getUILanguage());
+  const tp = (key, count, ...subs) =>
+    chrome.i18n.getMessage(`${key}_${plurals.select(count)}`, [count, ...subs].map(String)) || t(`${key}_other`, count, ...subs);
+
+  const KINDS = { iframe: 'kindIframe', img: 'kindImage', picture: 'kindImage', video: 'kindVideo', aside: 'kindAside', header: 'kindHeader', footer: 'kindFooter', nav: 'kindNav', dialog: 'kindDialog', form: 'kindForm', button: 'kindButton', a: 'kindLink', ul: 'kindList', ol: 'kindList', li: 'kindRow', article: 'kindArticle', p: 'kindText' };
 
   const CSS_TEXT = `
     :host {
@@ -162,12 +170,12 @@
   const tag = element('div', 'tag');
   const others = element('div', 'others');
   const message = element('span', 'message');
-  const undoButton = element('button', '', 'Annuler');
+  const undoButton = element('button', '', t('undo'));
   const moreButton = element('button', 'more');
-  const doneButton = element('button', 'main', 'Terminé');
+  const doneButton = element('button', 'main', t('done'));
   // La barre couvre forcément un bout de page : ce bouton l'envoie de l'autre côté.
   const sideButton = element('button', 'side');
-  sideButton.title = 'Déplacer la barre';
+  sideButton.title = t('moveBar');
   sideButton.setAttribute('aria-label', sideButton.title);
   const arrows = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   arrows.setAttribute('viewBox', '0 0 16 16');
@@ -186,7 +194,7 @@
   const history = []; // identifiants des règles ajoutées, pour annuler
   let offer = null; // { ruleId, selector, count } : proposition « les semblables »
 
-  const kind = (node) => KINDS[node.localName] ?? 'Bloc';
+  const kind = (node) => t(KINDS[node.localName] ?? 'kindBlock');
 
   // L'étiquette de visée : le genre d'élément et sa taille.
   const describe = (node) => {
@@ -244,12 +252,12 @@
   const render = () => {
     const count = history.length;
     message.replaceChildren(
-      count ? `${count} masqué${count > 1 ? 's' : ''}` : 'Clique sur ce qui te gêne',
-      element('span', 'hint', count ? '' : '  ↑ ↓ pour viser plus large'),
+      count ? tp('hiddenCount', count) : t('clickWhat'),
+      element('span', 'hint', count ? '' : `  ${t('aimWider')}`),
     );
     undoButton.disabled = !count;
     moreButton.hidden = !offer;
-    if (offer) moreButton.textContent = `Aussi les ${offer.count - 1} semblables`;
+    if (offer) moreButton.textContent = tp('alsoSimilar', offer.count - 1);
     draw();
   };
 

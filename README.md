@@ -8,7 +8,7 @@ A Chrome extension that hides what gets in the way on a website (an ad, a cookie
 
 ## What it does
 
-- **The wand.** Click the toolbar button, then "Prendre la baguette", or press `Alt+Shift+Z`. The block under the mouse is outlined in green; a click hides it. While the wand is in hand the page receives nothing: links are not followed and videos do not start.
+- **The wand.** Click the toolbar button, then "Take the wand", or press `Alt+Shift+Z`. The block under the mouse is outlined in green; a click hides it. While the wand is in hand the page receives nothing: links are not followed and videos do not start.
 - **It aims at the block you see.** Under the mouse there is often an invisible piece of a larger block: the text field inside a search bar, the text of a banner, an ad without its "Advertisement" label. Zen starts from the visible block. `↑` takes a wider block, `↓` a narrower one.
 - **The similar ones.** After hiding a card or a row, the bar offers to hide the others like it. Hovering the button outlines them first.
 - **It remembers, per site.** What you hid is hidden again at every visit, before the page is shown, including elements the site adds later.
@@ -22,7 +22,7 @@ A Chrome extension that hides what gets in the way on a website (an ad, a cookie
 
 <img src="screenshots/popup.png" width="340" alt="The popup with the list of hidden elements, one of them shown again">
 
-The interface is in French. The site in the screenshots is made up for the demonstration.
+The interface follows the language of Chrome: English by default, French when Chrome is set to French. The site in the screenshots is made up for the demonstration.
 
 ## Install
 

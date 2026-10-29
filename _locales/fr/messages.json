@@ -1,0 +1,161 @@
+{
+  "extName": {
+    "message": "Zen"
+  },
+  "extDesc": {
+    "message": "Une baguette pour masquer ce qui gêne sur un site, et le garder masqué à chaque visite."
+  },
+  "cmdWand": {
+    "message": "Prendre la baguette sur la page affichée"
+  },
+  "takeWand": {
+    "message": "Prendre la baguette"
+  },
+  "zenMode": {
+    "message": "Mode zen sur ce site"
+  },
+  "hiddenItems": {
+    "message": "Éléments masqués"
+  },
+  "resetAll": {
+    "message": "Tout rétablir"
+  },
+  "hiddenCount_one": {
+    "message": "$COUNT$ masqué",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenCount_other": {
+    "message": "$COUNT$ masqués",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "hiddenOfTotal_one": {
+    "message": "$COUNT$ masqué sur $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hiddenOfTotal_other": {
+    "message": "$COUNT$ masqués sur $TOTAL$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "hideAgain": {
+    "message": "Masquer de nouveau"
+  },
+  "showOnPage": {
+    "message": "Montrer sur la page"
+  },
+  "notOnPage": {
+    "message": "pas sur cette page"
+  },
+  "fragile": {
+    "message": "fragile"
+  },
+  "restore": {
+    "message": "Rétablir"
+  },
+  "hintEmpty": {
+    "message": "Rien n’est masqué sur ce site. Prends la baguette, puis clique sur ce qui te gêne."
+  },
+  "hintProtected": {
+    "message": "Chrome ne permet pas de modifier cette page."
+  },
+  "undo": {
+    "message": "Annuler"
+  },
+  "done": {
+    "message": "Terminé"
+  },
+  "moveBar": {
+    "message": "Déplacer la barre"
+  },
+  "clickWhat": {
+    "message": "Clique sur ce qui te gêne"
+  },
+  "aimWider": {
+    "message": "↑ ↓ pour viser plus large"
+  },
+  "alsoSimilar_one": {
+    "message": "Aussi $COUNT$ semblable",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "alsoSimilar_other": {
+    "message": "Aussi les $COUNT$ semblables",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "kindIframe": {
+    "message": "Cadre"
+  },
+  "kindImage": {
+    "message": "Image"
+  },
+  "kindVideo": {
+    "message": "Vidéo"
+  },
+  "kindAside": {
+    "message": "Colonne"
+  },
+  "kindHeader": {
+    "message": "En-tête"
+  },
+  "kindFooter": {
+    "message": "Pied de page"
+  },
+  "kindNav": {
+    "message": "Menu"
+  },
+  "kindDialog": {
+    "message": "Fenêtre"
+  },
+  "kindForm": {
+    "message": "Formulaire"
+  },
+  "kindButton": {
+    "message": "Bouton"
+  },
+  "kindLink": {
+    "message": "Lien"
+  },
+  "kindList": {
+    "message": "Liste"
+  },
+  "kindRow": {
+    "message": "Ligne"
+  },
+  "kindArticle": {
+    "message": "Article"
+  },
+  "kindText": {
+    "message": "Texte"
+  },
+  "kindBlock": {
+    "message": "Bloc"
+  }
+}
